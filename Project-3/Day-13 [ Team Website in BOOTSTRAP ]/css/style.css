@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav a{
+    color: #5C5F6E;
+}
+
+.first-btn{
+    padding: 15px 25px;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border-radius: 16px;
+}
+
+.second-btn{
+    padding: 15px 25px;
+    border: 2px solid transparent;
+    background-color: #651FFF;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 16px;
+}
+
+/* Header section */
+
+.header{
+    padding: 50px 0px;
+}
+
+.header-section > div > div:nth-child(1) h1 {
+    font-size: 64px ;
+    font-weight: bold;
+
+}
+
+/* Leadership Section */
+
+.leadership {
+    margin: 50px 0px;
+   
+}
+
+.leadership-heading h2{
+    font-size: 67px;
+    font-weight: bold;
+}
+
+.team-card {
+  width: 250px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.bottom-text {
+  background-color: #651FFF;
+  color: #ffffff;       
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #651FFF;
+}
+
+/* Members section */
+
+.parent {
+    position: relative;
+}
+.members{
+    padding: 200px 0px;
+}
+
+.text {
+    position: absolute;
+    left: 25px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    bottom: -25px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0px 4px 15px 0px;
+}
+
+.members-heading h1{
+    font-size: 67px;
+    font-weight: bold;
+}
+
+
+
+/* Culture Section */
+.culture{
+    background-color: #E0F7FA;
+    padding: 100px 0px;
+}
+
+.culture-heading h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.culture-section h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* World Section */
+
+.world {
+    padding: 200px 0px;
+}
+.world-heading h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* .world-heading > div > div:nth-child(3) > img{
+    background-color: red;
+    
+} */
+
+/* Join Section */
+
+.join {
+    padding: 100px 0px 0px 0px;
+}
+
+.join h1{
+    color: #651FFF;
+    font-size:48px ;
+    font-weight: bold;
+}
+.join-section {
+    background-color: #fff;
+    box-shadow: 0px 4px 24px 0px;
+    border-radius: 15px;
+    padding: 30px 40px;
+}
+
+/* Deupload section */
+.deupload {
+    background-color: #1A284E;
+    color: #ffffff;
+    margin-top: 200px;
+}
+
+.deupload-section {
+
+    padding: 50px 0px;
+}
+
+.deupload-section>div>div:nth-child(2) span,
+.deupload-section>div>div:nth-child(3) span,
+.deupload-section>div>div:nth-child(4) span {
+    /* background-color: green; */
+    display: block;
+}
+
+.join-section img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* Responsive Code */
+
+@media screen and (min-width: 992px) {
+    .line-break{
+        display: block;
+    }
+ 
+}
